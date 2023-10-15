@@ -2,575 +2,268 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-    />
-    <title>Store</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/kit.fontawesome.com_2c87f61656.js" defer></script>
+    <script src="js/js_bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Admin Dashboard</title>
   </head>
   <body class="bg-light">
-    <div class="container">
-      <!--hero-->
-      <section id="hero" class="row">
-        <div class="col-md-6 mx-auto bg-light d-flex justify-content-center">
-          <div>
-            <img
-              src="img/hero_Banner.jpg"
-              class="img-fluid"
-              alt=" hero Image"
-            />
-          </div>
-        </div>
-      </section>
-      <!--end hero-->
+    <div class="container-fluid">
+      <div class="row g-0">
+        <div class="col-2 bg-light p-3">
+          <h1 class="h3 text-primary text-center py-3">
+            <i class="fa-solid fa-ghost fs-3 me-2"></i>
+            <span class="d-none d-lg-inline">Admin</span>
+          </h1>
 
-      <!--contact_1-->
-      <section class="row" id="content_1">
-        <div class="col-md-6 bg-light mx-auto">
-          <div class="mt-3">
-            <div
-              class="Noti Banner bg-primary text-center p-2 mx-3 mb-3 text-white"
+          <div class="list-group mb-3 text-center text-lg-start">
+            <div class="list-group-item d-none d-lg-block">
+              <span class="text-muted">CONTROLS</span>
+            </div>
+            <a href="#" class="list-group-item list-group-item-action active">
+              <i class="fa-solid fa-home me-2"></i>
+              <span class="d-none d-lg-inline">Dashboard</span>
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action d-lg-flex justify-content-between"
             >
-              <h2>Ad Text</h2>
+              <div>
+                <i class="fa-solid fa-users me-2"></i>
+                <span class="d-none d-lg-inline">Users</span>
+              </div>
+              <div class="badge bg-danger rounded-pill d-none d-lg-block">
+                20
+              </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-chart-line me-2"></i>
+              <span class="d-none d-lg-inline">Statistics</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-flag me-2"></i>
+              <span class="d-none d-lg-inline">Reports</span>
+            </a>
+          </div>
+
+          <div class="list-group mb-3 text-center text-lg-start">
+            <div class="list-group-item d-none d-lg-block">
+              <span class="text-muted">ACTIONS</span>
             </div>
-
-            <div class="list_container">
-              <div class="list_Box d-flex my-1">
-                <div class="me-1">
-                  <i class="fas fa-times-circle text-danger"></i>
-                </div>
-                <div>
-                  <p>
-                    <strong>Lorem ipsum dolor sit amet.</strong> Rerum placeat
-                    deserunt sit? Expedita sed, nisi ex iste vitae totam! Totam.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Officia incidunt cupiditate temporibus exercitationem est ea
-                    numquam expedita.
-                  </p>
-                </div>
-              </div>
-
-              <div class="list_Box d-flex my-1">
-                <div class="me-1">
-                  <i class="fas fa-times-circle text-danger"></i>
-                </div>
-                <div>
-                  <p>
-                    <strong>Lorem ipsum dolor sit amet.</strong> Rerum placeat
-                    deserunt sit? Expedita sed, nisi ex iste vitae totam! Totam.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Officia incidunt cupiditate temporibus exercitationem est ea
-                    numquam expedita.
-                  </p>
-                </div>
-              </div>
-
-              <div class="list_Box d-flex my-1">
-                <div class="me-1">
-                  <i class="fas fa-times-circle text-danger"></i>
-                </div>
-                <div>
-                  <p>
-                    <strong>Lorem ipsum dolor sit amet.</strong> Rerum placeat
-                    deserunt sit? Expedita sed, nisi ex iste vitae totam! Totam.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Officia incidunt cupiditate temporibus exercitationem est ea
-                    numquam expedita.
-                  </p>
-                </div>
-              </div>
-
-              <div class="list_Box d-flex my-1">
-                <div class="me-1">
-                  <i class="fas fa-times-circle text-danger"></i>
-                </div>
-                <div>
-                  <p>
-                    <strong>Lorem ipsum dolor sit amet.</strong> Rerum placeat
-                    deserunt sit? Expedita sed, nisi ex iste vitae totam! Totam.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Officia incidunt cupiditate temporibus exercitationem est ea
-                    numquam expedita.
-                  </p>
-                </div>
-              </div>
-            </div>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-user me-2"></i>
+              <span class="d-none d-lg-inline">New User</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-edit me-2"></i>
+              <span class="d-none d-lg-inline">Update Data</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-calendar me-2"></i>
+              <span class="d-none d-lg-inline">Add Events</span>
+            </a>
           </div>
         </div>
-      </section>
-      <!--end Contant_1-->
-
-      <!--img_1-->
-      <section id="img_1" class="row">
-        <div class="col-md-6 mx-auto bg-light d-flex justify-content-center">
-          <div class="card position-relative">
-            <img
-              src="./img/img_1.jpg"
-              class="img-fluid"
-              class="card-img"
-              alt="..."
-            />
-            <div class="card-img-overlay d-flex justify-content-center">
-              <div
-                class="bg-danger text-white mx-auto text-center my-1 position-absolute bottom-0"
-              >
+        <div class="col-10 bg-secondary">
+          <nav class="navbar bg-light navbar-expand">
+            <div class="flex-fill"></div>
+            <ul class="navbar-nav me-2">
+              <li class="nav-item dropdown">
                 <a
-                  href="#orderBox"
-                  class="text-decoration-none text-white w-50 p-5 fs-3 pt-2"
-                  >Order Now</a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
                 >
-              </div>
-            </div>
+                  <i class="fa-solid fa-circle-user"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li>
+                    <a href="#" class="dropdown-item"> User Profile</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item"> Logout</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa-solid fa-cog"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="alert alert-info m-3">
+            <i class="fa-solid fa-download me-2"></i>
+            A new version of admin dashboard is released.
+            <a href="#">Download Now!</a>
           </div>
-        </div>
-      </section>
-      <!--end img_1-->
 
-      <!--contact_2-->
-      <section id="content_2" class="row">
-        <div class="col-md-6 bg-light mx-auto">
-          <div class="mt-3">
-            <div
-              class="Noti Banner bg-primary text-center p-2 mx-3 mb-3 text-white mt-2"
-            >
-              <h2>Ad Text</h2>
-            </div>
-
-            <div class="text-container text-center my-2">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo at
-              sed cupiditate obcaecati sequi eos.
-            </div>
-          </div>
-
-          <div class="d-flex row mx-auto justify-conent-center">
-            <div
-              class="card col-md-3 mx-1 mx-auto border-0 my-3 border-rounded shadow-sm"
-              style="width: 10rem"
-            >
-              <img src="./img/ad_img_1.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Lorem</p>
-              </div>
-            </div>
-
-            <div
-              class="card col-md-3 mx-1 mx-auto border-0 my-3 border-rounded shadow-sm"
-              style="width: 10rem"
-            >
-              <img src="./img/ad_img_1.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Lorem</p>
-              </div>
-            </div>
-
-            <div
-              class="card col-md-3 mx-1 mx-auto border-0 my-3 border-rounded shadow-sm"
-              style="width: 10rem"
-            >
-              <img src="./img/ad_img_1.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Lorem</p>
-              </div>
-            </div>
-
-            <div
-              class="card col-md-3 mx-1 mx-auto border-0 my-3 border-rounded shadow-sm"
-              style="width: 10rem"
-            >
-              <img src="./img/ad_img_1.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Lorem</p>
-              </div>
-            </div>
-
-            <div
-              class="card col-md-3 mx-1 mx-auto border-0 my-3 border-rounded shadow-sm"
-              style="width: 10rem"
-            >
-              <img src="./img/ad_img_1.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Lorem</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--end contact_2-->
-
-      <!--img_2-->
-      <section id="img_1" class="row">
-        <div class="col-md-6 mx-auto bg-light d-flex justify-content-center">
-          <div class="card position-relative">
-            <img
-              src="./img/img_2.jpg"
-              class="img-fluid"
-              class="card-img"
-              alt="..."
-            />
-            <div class="card-img-overlay d-flex justify-content-center">
-              <div
-                class="bg-danger text-white mx-auto text-center my-1 position-absolute bottom-0"
-              >
-                <a
-                  href="#orderBox"
-                  class="text-decoration-none text-white w-50 p-5 fs-3 pt-2"
-                  >Order Now</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--end img_2-->
-
-      <!--contact_3-->
-      <section class="row" id="content_1">
-        <div class="col-md-6 bg-light mx-auto">
-          <div class="mt-3">
-            <div
-              class="Noti Banner border border-primary text-center p-2 mx-3 mb-4 text-primary"
-            >
-              <h2>Ad Text</h2>
-            </div>
-
-            <div>
-              <ul class="list_container">
-                <li class="mb-2">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Saepe, cum. Velit possimus corrupti doloribus quos.
-                </li>
-
-                <li class="mb-2">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Saepe, cum. Velit possimus corrupti doloribus quos.
-                </li>
-
-                <li class="mb-2">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Saepe, cum. Velit possimus corrupti doloribus quos.
-                </li>
-
-                <li class="mb-2">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Saepe, cum. Velit possimus corrupti doloribus quos.
-                </li>
-
-                <li class="mb-2">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Saepe, cum. Velit possimus corrupti doloribus quos.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--end contact_3-->
-
-      <!--order-->
-      <section id="orderBox" class="row">
-        <div class="col-md-6 mx-auto" style="background-color: #b6e77e">
-          <div class="orderContainer bg-light my-2 shadow-lg p-3">
-            <h2 class="text-center">50% discount</h2>
-            <h5 class="text-danger text-decoration-line-through">
-              Item Price : $200
-            </h5>
-            <h5 class="text-primary text-bold">Discount Price : $100</h5>
-
-            <div
-              class="imgContainer d-flex jsutity-content-between align-items-center"
-            >
-              <div class="me-2">
-                <img src="./img/ad_img_2.png" width="60" alt="ad_img" />
-              </div>
-              <div class="fs-6">
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Nulla, ipsa? Lorem ipsum, dolor sit amet consectetur
-                  adipisicing elit. Nulla, ipsa? Lorem ipsum, dolor sit amet
-                  consectetur.
-                </p>
-              </div>
-            </div>
-
-            <div class="mt-2">
-              <form>
-                <div class="mb-3">
-                  <input
-                    type="name"
-                    placeholder="name"
-                    class="form-control"
-                    aria-describedby="emailHelp"
-                  />
+          <div class="row p-4 flex-column flex-lg-row">
+            <h2 class="text-white-50 h6">QUICK STATS</h2>
+            <div class="col">
+              <div class="card mb-2">
+                <div class="card-body">
+                  <h1 class="fw-bold">1,250</h1>
+                  <i class="fa-solid fa-chart-line"></i>
+                  <span class="text-muted">Daily visitors</span>
                 </div>
-
-                <div class="mb-3">
-                  <input
-                    type="text"
-                    placeholder="phone no."
-                    class="form-control"
-                    aria-describedby="emailHelp"
-                  />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-2">
+                <div class="card-body">
+                  <h1 class="fw-bold">8,210</h1>
+                  <i class="fa-solid fa-chart-line"></i>
+                  <span class="text-muted">Weekly visitors</span>
                 </div>
-
-                <div class="mb-3">
-                  <textarea
-                    name="address"
-                    placeholder="address"
-                    class="form-control"
-                  ></textarea>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-2">
+                <div class="card-body">
+                  <h1 class="fw-bold">12,560</h1>
+                  <i class="fa-solid fa-chart-line"></i>
+                  <span class="text-muted">Monthly visitors</span>
                 </div>
-
-                <div class="border border-2 p-2 mb-3">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="totalOrder"
-                      id="flexRadioDefault1"
-                      value="1 ပုလင်: 30000ks"
-                      checked
-                    />
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      1 ပုလင်: 30000ks
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="totalOrder"
-                      id="flexRadioDefault2"
-                      value="1 ပုလင်: + 1 serum: 3000ks"
-                    />
-                    <label class="form-check-label" for="flexRadioDefault2">
-                      1 ပုလင်: + 1 serum: 3000ks
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="totalOrder"
-                      id="flexRadioDefault3"
-                      value="2 ပုလင်: 49000ks - အခမဲ့ 1 serum"
-                    />
-                    <label class="form-check-label" for="flexRadioDefault3">
-                      2 ပုလင်: 49000ks - အခမဲ့ 1 serum
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="totalOrder"
-                      id="flexRadioDefault4"
-                      value="3 ပုလင်: 49000ks - အခမဲ့ 2 serum"
-                    />
-                    <label class="form-check-label" for="flexRadioDefault4">
-                      3 ပုလင်: 49000ks - အခမဲ့ 2 serum
-                    </label>
-                  </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-2">
+                <div class="card-body">
+                  <h1 class="fw-bold">102,250</h1>
+                  <i class="fa-solid fa-chart-line"></i>
+                  <span class="text-muted">Yearly visitors</span>
                 </div>
-
-                <div class="d-flex justify-content-center">
-                  <button type="submit" class="btn btn-danger">
-                    Order Now
-                  </button>
-                </div>
-              </form>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      <section class="steps-list-container" class="row">
-        <div class="col-md-6 mx-auto bg-light">
-          <div
-            class="border border-3 border-primary m-2 p-2 fs-3 text-center mt-3"
-          >
-            ထိရောက်စွာ အသုံးပြုနိုင်ဖို့ အဆင့် ၅ ဆင့်
-          </div>
-
-          <div class="text-container text-center my-2">
-            အကျိုးကျေးဇူးတွေ အများကြီးရှိနေတဲ့ ကုန်ပစ္စည်းတစ်ခုဖြစ်တာကြောင့်
-            ရိုးစင်းပြီး အချိန်ကုန်လည်း သက်သာတဲ့အတွက် ၅မိနစ်ပဲ
-            အချိန်ပေးဖို့လိုပါတယ်။ သင့်အတွက် အမွေးအမှင်တွေကို ဖယ်ရှားနိုင်မယ့်
-            အဆင့် ၅ ဆင့်ကို ဖော်ပြပေးလိုက်ပါတယ်။
-          </div>
-
-          <div class="lists-container my-3">
-            <div
-              class="border mb-3 border-1 border-primary shadow-sm rounded m-2 p-2 text-center"
-            >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Consequuntur, ullam! Eius harum quos maxime reprehenderit.
-            </div>
-
-            <div
-              class="border mb-3 border-1 border-primary shadow-sm rounded m-2 p-2 text-center"
-            >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Consequuntur, ullam! Eius harum quos maxime reprehenderit.
-            </div>
-
-            <div
-              class="border mb-3 border-1 border-primary shadow-sm rounded m-2 p-2 text-center"
-            >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Consequuntur, ullam! Eius harum quos maxime reprehenderit.
-            </div>
-
-            <div
-              class="border mb-3 border-1 border-primary shadow-sm rounded m-2 p-2 text-center"
-            >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Consequuntur, ullam! Eius harum quos maxime reprehenderit.
-            </div>
-
-            <div
-              class="border mb-3 border-1 border-primary shadow-sm rounded m-2 p-2 text-center"
-            >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Consequuntur, ullam! Eius harum quos maxime reprehenderit.
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="orderButton" class="row">
-        <div
-          class="border border-3 border-secondary col-md-6 mx-auto fs-3 p-2 m-3 text-center"
-        >
-          <a href="#orderBox" class="text-decoration-none text-dark"
-            >Order Now</a
-          >
-        </div>
-      </section>
-      <!--end order-->
-
-      <!--deli service-->
-      <section class="row" id="deli-service">
-        <div class="col-md-6 bg-light mx-auto">
-          <div class="mt-3">
-            <div class="list_container">
-              <div class="list_Box d-flex my-1 mb-3">
-                <div class="me-2">
-                  <h3>
-                    <i
-                      class="fas fa-recycle"
-                      style="color: rgb(104, 130, 45)"
-                    ></i>
-                  </h3>
-                </div>
-                <div>
-                  <h4>
-                    <strong
-                      >အိမ်တိုင်ရာရောက်ပို့ဆောင်စနစ်- ပြန်ပေးတဲ့ စနစ်</strong
+          <div class="row p-4">
+            <div class="col-md col-lg-6 mb-3">
+              <h2 class="h6 text-white-50">LOCATION</h2>
+              <div class="card">
+                <div class="card-body p-4">
+                  <div class="mb-4">
+                    <div class="text-muted fw-bold mb-2">Regional</div>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Basic example"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="height: 6px"
                     >
-                  </h4>
-                  <p>
-                    အိမ်တိုင်ရာရောက်ပို့ဆောင်ပေးတယ်။ ကုန်ပစ္စည်းကို လက်ခံပြီး
-                    စစ်ဆေးကြည့်ပါ။ အကယ်၍ ပြောထားတာနဲ့ မကိုက်ညီဘူးဆိုရင်
-                    ကုန်ပစ္စည်းကို ပြန်လဲခွင့်ရှိပါတယ်။
-                  </p>
-                </div>
-              </div>
+                      <div class="progress-bar w-25 bg-danger"></div>
+                    </div>
+                  </div>
 
-              <div class="list_Box d-flex my-1 mb-3">
-                <div class="me-2">
-                  <h3>
-                    <i
-                      class="fas fa-truck"
-                      style="color: rgb(104, 130, 45)"
-                    ></i>
-                  </h3>
-                </div>
-                <div>
-                  <h4><strong>တစ်နိုင်ငံလုံးပို့ဆောင်ပေးခြင်း</strong></h4>
-                  <p>
-                    မြန်မာနိုင်ငံရဲ့ ဘယ်နေရာမဆို
-                    အိမ်တိုင်ရာရောက်ပို့ဆောင်ပေးပါတယ်။
-                  </p>
-                </div>
-              </div>
-
-              <div class="list_Box d-flex my-1">
-                <div class="me-2">
-                  <h3>
-                    <i
-                      class="fas fa-shield-alt"
-                      style="color: rgb(104, 130, 45)"
-                    ></i>
-                  </h3>
-                </div>
-                <div>
-                  <h4>
-                    <strong
-                      >ငွေမပေးချေခင်မှာ ကုန်ပစ္စည်းကို သေချာစစ်ဆေးပါ။</strong
+                  <div class="mb-4">
+                    <div class="text-muted fw-bold mb-2">Global</div>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Basic example"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="height: 6px"
                     >
-                  </h4>
-                  <p>
-                    စျေးဝယ်သူများအနေနဲ့ သင့်ရဲ့အခွင့်အရေးတွေကို
-                    အပြည့်အဝရရှိဖို့အတွက် ကုန်ပစ္စည်းတွေကို သေချာလေးစစ်ဆေးပြီးမှ
-                    ငွေပေးချေပေးပါ။ လိုအပ်တယ်ဆိုရင် ပစ္စည်းလာပို့တဲ့ သူကို
-                    အကူအညီတောင်းခံနိုင်ပါတယ်။
-                  </p>
+                      <div class="progress-bar w-75"></div>
+                    </div>
+                  </div>
+
+                  <div class="mb-4">
+                    <div class="text-muted fw-bold mb-2">Local</div>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Basic example"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="height: 6px"
+                    >
+                      <div class="progress-bar w-50 bg-warning"></div>
+                    </div>
+                  </div>
+
+                  <div class="mb-2">
+                    <div class="text-muted fw-bold mb-2">Internal</div>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Basic example"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="height: 6px"
+                    >
+                      <div class="progress-bar w-25 bg-secondary"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md col-lg-6">
+              <h2 class="h6 text-white-50">DATA</h2>
+              <div class="card">
+                <div class="card-body p-4">
+                  <div class="mb-3 text-end">
+                    <button class="btn btn-sm btn-outline-secondary">
+                      <i class="fa-solid fa-search"></i>
+                    </button>
+                    <button class="btn btn-sm btn-outline-secondary">
+                      <i class="fa-solid fa-arrow-up-wide-short"></i>
+                    </button>
+                    <button class="btn btn-sm btn-outline-secondary">
+                      <i class="fa-solid fa-filter"></i>
+                    </button>
+                  </div>
+                  <table class="table">
+                    <tr>
+                      <th>ID</th>
+                      <th>Age Group</th>
+                      <th>Data</th>
+                      <th>Progress</th>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>20-30</td>
+                      <td>19%</td>
+                      <td><i class="fa-solid fa-chart-pie"></i></td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>30-40</td>
+                      <td>40%</td>
+                      <td><i class="fa-solid fa-chart-line"></i></td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>40-50</td>
+                      <td>20%</td>
+                      <td><i class="fa-solid fa-chart-column"></i></td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>>50</td>
+                      <td>11%</td>
+                      <td><i class="fa-solid fa-chart-pie"></i></td>
+                    </tr>
+                  </table>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!--end deli service-->
-
-      <!--contact-->
-      <section id="comments" class="row">
-        <div class="col-md-6 mx-auto bg-primary">
-          <h2 class="text-center my-2 text-white">Contact Us</h2>
-
-          <form action="" class="my-3">
-            <div class="mb-3">
-              <input
-                type="text"
-                name="name"
-                placeholder="Your Name"
-                class="form-control"
-              />
-            </div>
-
-            <div class="mb-3">
-              <input
-                type="text"
-                name="phone"
-                placeholder="Phone No."
-                class="form-control"
-              />
-            </div>
-
-            <div class="mb-3">
-              <textarea
-                name="body"
-                placeholder="Write Here"
-                rows="5"
-                class="form-control"
-              ></textarea>
-            </div>
-
-            <div class="d-flex justify-content-end">
-              <button class="btn btn-secondary">Sent</button>
-            </div>
-          </form>
-        </div>
-      </section>
-      <!--end contact-->
+      </div>
+      <footer class="my-3">
+        <div class="text-center text-muted">&copy; Copyright 2023</div>
+      </footer>
     </div>
-
-    <script
-      src="https://kit.fontawesome.com/2c87f61656.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
